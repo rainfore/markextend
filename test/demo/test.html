@@ -8,6 +8,8 @@
 <meta name="viewport" content="width=device-width"/>
 <link rel="stylesheet" href="css/normalize.css" />
 <link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="http://libs.cncdn.cn/KaTeX/0.1.1/katex.min.css" />
+<script src="http://libs.cncdn.cn/KaTeX/0.1.1/katex.min.js"></script>
 <script src="../../lib/markextend.js"></script>
 </head>
 <body class="g-doc">
@@ -15,8 +17,22 @@
 <script>
 var test = document.getElementById('test');
 
+var source = '';
+// source += '| col1 | col2 | col3 |\n';
+// source += '|: -- :| ---- | --- :|\n';
+// source += '| tes1 | test | test |\n';
+// source += '| tes2 | test | test |\n';
+source += 'abc\n';
+source += '$$$\n';
+source += 'a^2+b^2=c^2\n';
+source += '$$$\n';
+source += 'test\n';
+
+
 var content = '';
-content += markextend('### ABC ~@[T](5)');
+content += markextend(source, {
+	tables: false
+});
 test.innerHTML = content;
 </script>
 </body>
