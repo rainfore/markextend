@@ -1,10 +1,10 @@
 {
-  "name": "marked",
-  "version": "0.3.2",
-  "repo": "chjj/marked",
-  "description": "A markdown parser built for speed",
-  "keywords": ["markdown", "markup", "html"],
-  "scripts": ["lib/marked.js"],
-  "main": "lib/marked.js",
+  "name": "markextend",
+  "version": "1.0.0",
+  "repo": "rainfore/markextend",
+  "description": "A markdown parser with more features",
+  "keywords": ["markdown", "markup", "html", "extend"],
+  "scripts": ["lib/markextend.js"],
+  "main": "lib/markextend.js",
   "license": "MIT"
 }

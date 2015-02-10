@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>QuesEditor</title>
+<meta name="keywords" content="Ques"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="../../lib/markextend.js"></script>
+<!-- <script src="js/ques.js"></script>
+<script src="js/QuesEditor.js"></script> -->
+</head>
+<body class="g-doc">
+<textarea id="qeditor">
+QuesEditor
+=================
+`ques.js`是在解析Markdown的基础上扩充了解析各种题目标记的功能，使用方法：
+
+```javascript
+/*
+ * 根据标记生成HTML;
+ * @method render
+ * @public
+ * @param {string} content 标记内容
+ * @param {string | number　| Object} answer　需要填充的答案，多个答案时使用列表
+ * @return {string} 生成的HTML
+ */
+ques.render(content, answer);
+```
+
+`QuesEditor`为`ques.js`的一个可视化编辑器，使用方法：
+
+```html
+&amp;lt;textarea id="qeditor"&amp;gt;&amp;lt;/textarea&amp;gt;
+```
+
+```javascript
+var qeditor = new QuesEditor(document.getElementById('qeditor'));
+```
+
+------
+
+题目标记的基本格式为：
+
+- @\[选择项](分数)
+- @@\[填空项](分数)
+- @@@\[解答项](分数)
+
+------
+
+请进入下面的链接查看具体实例：
+
+1. [判断题](1.html)
+
+2. [选择题](2.html)
+
+3. [程序填空题](3.html)
+
+4. [代码补全题](4.html)
+</textarea>
+<script src="js/app.js"></script>
+</body>
+</html>

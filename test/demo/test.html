@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>QuesEditor</title>
+<meta name="keywords" content="Ques"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="../../lib/markextend.js"></script>
+</head>
+<body class="g-doc">
+<div id="test"></div>
+<script>
+var test = document.getElementById('test');
+
+var content = '';
+content += markextend('### ABC ~@[T](5)');
+test.innerHTML = content;
+</script>
+</body>
+</html>

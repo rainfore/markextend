@@ -1,0 +1,1 @@
+var qeditor = new QuesEditor(document.getElementById('qeditor'));

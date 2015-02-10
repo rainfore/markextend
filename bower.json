@@ -1,17 +1,13 @@
 {
-  "name": "marked",
-  "version": "0.3.2",
-  "homepage": "https://github.com/chjj/marked",
+  "name": "markextend",
+  "version": "1.0.0",
+  "homepage": "https://github.com/rainfore/markextend",
   "authors": [
-    "Christopher Jeffrey <chjjeffrey@gmail.com>"
+    "Sensen <rainforest92@126.com> (http://rainfore.me)"
   ],
-  "description": "A markdown parser built for speed",
-  "keywords": [
-    "markdown",
-    "markup",
-    "html"
-  ],
-  "main": "lib/marked.js",
+  "description": "A markdown parser with more features",
+  "keywords": ["markdown", "markup", "html", "extend"],
+  "main": "lib/markextend.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
