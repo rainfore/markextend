@@ -177,7 +177,7 @@ function camelize(text) {
  */
 
 if (!module.parent) {
-  process.title = 'marked';
+  process.title = 'markextend';
   main(process.argv.slice(), function(err, code) {
     if (err) throw err;
     return process.exit(code || 0);
