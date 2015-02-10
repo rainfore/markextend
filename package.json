@@ -9,14 +9,32 @@
   "preferGlobal": true,
   "repository": "git://github.com/rainfore/markextend.git",
   "homepage": "https://github.com/rainfore/markextend",
-  "bugs": { "url": "http://github.com/rainfore/markextend/issues" },
+  "bugs": {
+    "url": "http://github.com/rainfore/markextend/issues"
+  },
   "license": "MIT",
-  "keywords": ["markdown", "markup", "html", "extend"],
-  "tags": ["markdown", "markup", "html", "extend"],
+  "keywords": [
+    "markdown",
+    "markup",
+    "html",
+    "extend"
+  ],
+  "tags": [
+    "markdown",
+    "markup",
+    "html",
+    "extend"
+  ],
   "devDependencies": {
     "markdown": "*",
     "showdown": "*",
     "robotskirt": "*"
   },
-  "scripts": { "test": "node test", "bench": "node test --bench" }
+  "scripts": {
+    "test": "node test",
+    "bench": "node test --bench"
+  },
+  "dependencies": {
+    "katex": "^0.1.1"
+  }
 }
