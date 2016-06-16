@@ -1,5 +1,7 @@
 # markextend
 
+A test repo for practice, DO NOT use in production.
+
 > A full-featured markdown parser and compiler, written in JavaScript. Built
 > for speed.
 

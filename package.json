@@ -2,7 +2,7 @@
   "name": "markextend",
   "description": "A markdown parser with more features",
   "author": "Sensen <rainforest92@126.com> (http://rainfore.me)",
-  "version": "1.0.2",
+  "version": "0.0.3",
   "main": "./lib/markextend.js",
   "bin": "./bin/markextend",
   "man": "./man/markextend.1",
