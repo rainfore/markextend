@@ -1,9 +1,7 @@
 # markextend
 
-A test repo for practice, DO NOT use in production.
-
-> A full-featured markdown parser and compiler, written in JavaScript. Built
-> for speed.
+> A markdown parser and compiler extend from marked.
+> Test repo for practice, DO NOT USE IN PRODUCTION.
 
 [![NPM version](https://badge.fury.io/js/marked.png)][badge]
 
